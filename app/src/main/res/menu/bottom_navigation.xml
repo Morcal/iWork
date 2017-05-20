@@ -2,25 +2,25 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
     <item
         android:id="@+id/bottom_navigation_blue"
-        android:icon="@drawable/email_select"
+        android:icon="@mipmap/ic_dashboard_black_24dp"
         android:title="Email" />
 
     <item
         android:id="@+id/bottom_navigation_green"
-        android:icon="@drawable/chat_select"
+        android:icon="@mipmap/ic_photo_black_24dp"
         android:title="Chat" />
 
     <item
         android:id="@+id/bottom_navigation_gray"
-        android:icon="@drawable/contact_select"
+        android:icon="@mipmap/ic_web_black"
         android:title="Contacts" />
     <item
         android:id="@+id/bottom_navigation_yellow"
-        android:icon="@drawable/time_select"
+        android:icon="@mipmap/ic_timeline_black"
         android:title="Work" />
 
     <item
         android:id="@+id/bottom_navigation_red"
-        android:icon="@drawable/me_select"
+        android:icon="@mipmap/ic_movie_black_24dp"
         android:title="Me" />
 </menu>

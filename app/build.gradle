@@ -23,6 +23,9 @@ android {
         targetCompatibility JavaVersion.VERSION_1_8
         sourceCompatibility JavaVersion.VERSION_1_8
     }
+    configurations.all {
+        resolutionStrategy.force 'com.google.code.findbugs:jsr305:3.0.1'
+    }
 }
 
 
@@ -43,7 +46,8 @@ dependencies {
     //butterknife
     compile 'com.jakewharton:butterknife:8.2.1'
     apt "com.jakewharton:butterknife-compiler:8.2.1"
-
+    //fragmentions
+    compile 'me.yokeyword:fragmentation:0.10.5'
     //MvpArms
     compile 'me.jessyan:arms:1.5.2'
     provided rootProject.ext.dependencies["javax.annotation"]
