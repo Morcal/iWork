@@ -8,7 +8,7 @@ import android.view.ViewGroup;
 
 import com.lyqdhgo.iwork.R;
 import com.lyqdhgo.iwork.base.BaseMainFragment;
-import com.lyqdhgo.iwork.ui.fragment.contacts.child.ContactHomeFragment;
+import com.lyqdhgo.iwork.ui.fragment.contacts.child.ContactsHomeFragment;
 
 /**
  * Created by QiDeHong on 2017/5/20.
@@ -34,7 +34,7 @@ public class ContactFragment extends BaseMainFragment {
     public void onLazyInitView(@Nullable Bundle savedInstanceState) {
         super.onLazyInitView(savedInstanceState);
         if (savedInstanceState == null) {
-            loadRootFragment(R.id.container, ContactHomeFragment.newInstance());
+            loadRootFragment(R.id.container, ContactsHomeFragment.newInstance());
         }
     }
 }

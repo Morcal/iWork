@@ -12,4 +12,6 @@
     <color name="colorOrigin">#FFBF64</color>
     <color name="colorGreen">#91DC0E</color>
 
+    <color name="chrome">#a3a3a3</color>
+
 </resources>
