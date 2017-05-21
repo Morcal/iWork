@@ -32,6 +32,7 @@ android {
 buildscript {
     repositories {
         jcenter()
+        mavenCentral()
     }
 }
 
@@ -59,6 +60,15 @@ dependencies {
     annotationProcessor rootProject.ext.dependencies["butterknife-compiler"]
     compile rootProject.ext.dependencies["paginate"]
     // compile 'me.jessyan:arms:1.5.2'
+    // glide
+    compile 'com.github.bumptech.glide:glide:4.0.0-RC0'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.0.0-RC0'
+
+    // zhihu pic select
+    compile 'com.zhihu.android:matisse:0.4.3'
+
+    //IM message list
+//    jpush / aurora-imui
     testCompile rootProject.ext.dependencies["junit"]
     debugCompile rootProject.ext.dependencies["canary-debug"]
     releaseCompile rootProject.ext.dependencies["canary-release"]
